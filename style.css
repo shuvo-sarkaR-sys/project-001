@@ -63,6 +63,7 @@ margin-top: 110px;
   font-size: 24px !important;
     font-family: "Cinzel Decorative", serif !important;
  }
+  
  .reservation p{
   font-size: 24px !important;
   color: rgb(73, 64, 64);
@@ -83,7 +84,7 @@ margin-top: 110px;
   background-color: #f5f5f5;
   padding: 28px 14px 38px 14px !important;
   gap: 14px;
-  min-width: 380px !important;
+  min-width: 95% !important;
  }
  .text-input{
   height: 150px !important;
