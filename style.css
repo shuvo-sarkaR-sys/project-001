@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 0px rgb(82, 79, 79);
+  padding: 28px 14px 28px 14px;
+  position: fixed; 
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+
+ }
+ .navbar h1{
+  color: #079839;
+  font-size: 30px;
+  font-weight: 450;
+ }
+ .span1{
+  margin-left: 8px;
+  font-size: 34px;
+ }
+ .span2{
+     font-size: 34px;
+ }
+ .navbar button{
+  border: none;
+  background: none;
+ }
+ .navbar button img{
+  width: 43px;
+ }
+ .reservation{
+  background-color: #efe9db;
+  padding: 32px 14px 55px 14px;
+z-index: 3;
+margin-top: 133px;
+ }
+ .reservation div {
+  background-color: #079839;
+  width: 48px;
+  height: 2px;
+ }
+ .reservation h1{
+      color:  #ed2629;
+      font-weight: 600;
+      font-size: 31px;
+ }
+ .span3{
+  font-size: 35px;
+ }
+ .reservation p{
+  font-size: 30px;
+  color: rgb(73, 64, 64);
+  font-family: sans-serif;
+ }
+ .text-1{
+  padding: 35px 70px 35px 70px;
+  color: #079839;
+   font-size: 22px;
+ }
+
+ .form-section{
+  display: flex;
+  flex-direction: column;
+  margin: 14px;
+  background-color: #f5f5f5;
+  padding: 14px;
+ }
+.form-section input{
+  height: 50px;
+}
