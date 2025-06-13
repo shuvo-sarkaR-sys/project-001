@@ -402,3 +402,9 @@ margin-top: 60px;
       color: #079839;
       font-weight: 600;
     }
+    @media (max-width: 768px) {
+      .product-section{
+        padding: 14px;
+        margin: 14px;
+      }
+    }
