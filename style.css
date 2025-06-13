@@ -116,7 +116,7 @@ margin-top: 110px;
   top: 0px;
   z-index: 2;
   width: 100%;
-  background-color: white;
+  background-color: #fff;
  
 
  }
@@ -137,7 +137,7 @@ margin-top: 110px;
   border: none;
   background: none;
  }
- .navbar button img{
+ .navbar label img{
   width: 43px;
  }
  .reservation{
@@ -210,3 +210,153 @@ margin-top: 110px;
   border: none;
   color: white;
 }
+
+
+/* Hamburger button */
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 10;
+}
+
+/* Menu styles */
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column ;
+  gap: 15px;
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+.menu a button{
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #079839;
+  height: 50px;
+  cursor: pointer;
+}
+/* Show menu when checkbox is checked */
+#menu-toggle:checked + .hamburger + .menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+/* hero section start from here */
+.hero-section{
+  background-color: #efe9db;
+  margin-top: 110px;
+  padding: 60px 70px;
+} 
+.hero-section p{
+  font-size: 42px;
+  margin-top: -10px;
+}
+.hero-section p strong{
+  color: #079839;
+}
+.line-1 {
+background-color: #079839;
+height: 2px;
+width: 55px;
+}
+.line-2{
+  background-color:#ed2629;
+height: 2px;
+width: 55px;
+margin-top: 60px;
+}
+.order-text{
+  font-family:"Cinzel Decorative", serif !important;
+  color:#ed2629;
+  font-size: 50px;
+}
+.offer-text{
+  font-family:"Cinzel Decorative", serif !important;
+  color:#079839;
+  font-size: 50px;
+}
+.food-menu{
+  background-color: #ed2629;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  position: sticky;
+}
+.box-1 p{
+  color: white;
+}
+.box-1{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 5px;
+}
+.box-1 img{
+  width: 20px;
+}
+.option-section{
+  padding: 5px 10px;
+}
+  details {
+      position: relative;
+      display: inline-block;
+    }
+
+    summary {
+      list-style: none;
+      cursor: pointer;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    summary img{
+      width: 15px;
+    }
+
+    details[open] summary {
+      background-color: #ffffff;
+    }
+
+    details ul {
+      position: absolute;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border: 1px solid #ccc;
+      width: 160px;
+    }
+
+    details ul li a {
+      display: block;
+      padding: 10px 16px;
+      text-decoration: none;
+      color: black;
+      text-align: start;
+    }
+
+    details ul li a:hover {
+      background-color: #ddd;
+    }
+    .home-page{
+      background-color: #efe9db;
+    }
+    
