@@ -496,6 +496,9 @@ margin-top: 60px;
   .confir-hero h1{
     font-size: 30px !important;
   }
+   .confir-hero p{
+    font-size: 27px !important;
+   }
     }
     .card-1{
         display: flex;
