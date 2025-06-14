@@ -499,6 +499,31 @@ margin-top: 60px;
    .confir-hero p{
     font-size: 27px !important;
    }
+   
+
+   .pop-up{
+   width: 80% !important;
+   
+    }
+
+    .option-select h1{
+      font-size: 15px !important;
+    }
+    .card-text-2{
+      margin: 15px !important;
+    }
+    .card-text-2 h5{
+      font-size: 15px !important;
+    }
+    .card-text-2 div button {
+      width: 70px !important;
+    }
+    .option-select {
+      padding: 17px 17px 20px 17px !important;
+    }
+ .btn-1{
+  font-size: 15px !important;
+ }
     }
     .card-1{
         display: flex;
@@ -815,3 +840,63 @@ margin-top: 60px;
     margin-bottom: 24px;
     font-size: 15px;
   }
+   
+.pop-up{
+   width: 600px;
+   
+   margin: auto;
+   margin-top: 100px;
+   background: #fff;
+   padding-bottom: 18px;
+
+}
+.option-select{
+        background-image: url(./Assets/vector2.png);
+      background-position: center;
+      background-size: cover;
+      padding:    20px 30px 30px 20px;
+      color: white;
+}
+.container-1{
+  background: #00000023;
+  height: 100%;
+}
+.option-select h1{
+  font-size: 30px;
+  font-weight: 500;
+}
+.card-text-2{
+ margin: 20px 40px;
+ border-bottom: 1px rgba(128, 128, 128, 0.438) solid;
+ padding-bottom: 15px;
+}
+.card-text-2 div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text-2 div button {
+   background: #ed2629;
+   width: 80px;
+   color: white;
+   border: none;
+   height: 30px;
+}
+.card-text-2 h5{
+  color: #ed2629;
+  font-size: 17px;
+}
+.btn-1{
+  background:#079839;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+    
+}
+.btn-box{
+  display: flex;
+  justify-content: center;
+}
