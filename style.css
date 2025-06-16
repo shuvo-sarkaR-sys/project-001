@@ -8,6 +8,30 @@ body{
    font-family: "Montserrat", sans-serif;
     
 }
+
+  .input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-wrapper span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+    transition: 0.2s;
+  }
+
+  .input-wrapper input:focus + span,
+  .input-wrapper input:not(:placeholder-shown) + span {
+    opacity: 0;
+  }
+
+  .input-wrapper input {
+    padding: 8px 10px;
+  }
 @media (max-width: 768px) {
   .navbar{
   display: flex;
@@ -225,11 +249,15 @@ margin-top: 110px;
  .text-input{
   height: 150px !important;
  }
+ .form-section label{
+  color: #888282;
+  font-size: 14px;
+ }
 .form-section input{
   height: 55px;
    border: none;
  box-shadow: 1px 1px 1px -1px rgba(82, 79, 79, 0.5);
-
+color: #646363;
  
   padding-left: 18px;
 }
@@ -243,6 +271,7 @@ margin-top: 110px;
   margin-top: 10px;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -310,7 +339,7 @@ height: 2px;
 width: 55px;
 }
 .line-2{
-  background-color:#ed2629;
+  background-color:#079839;
 height: 2px;
 width: 55px;
 margin-top: 60px;
@@ -440,7 +469,7 @@ margin-top: 60px;
     }
       .in-card div button{
         width: 70px !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
       }
        .text-5{
         font-size: 11px !important;
@@ -531,6 +560,7 @@ margin-top: 60px;
     }
     .card-1{
         display: flex;
+        justify-content: center;
         gap: 14px;
         margin-top: 14px;
         margin: 14px 50px 50px 50px;
@@ -571,6 +601,7 @@ margin-top: 60px;
       height: 30px;
       color: white;
       border: none;
+      cursor: pointer;
     }
     .text-5{
       font-size: 13px;
@@ -733,6 +764,7 @@ margin-top: 60px;
         color: #079839;
         padding: 8px 18px;
         background-color:#ddd9cd95 ;
+        cursor: pointer;
          
     }
   
@@ -747,6 +779,7 @@ margin-top: 60px;
       justify-content: space-between;
         width:50%;
         background-color: #079839;
+        cursor: pointer;
         height: 40px;
         align-items: center;
         padding: 8px 14px;
@@ -804,6 +837,9 @@ padding: 3px 12px;
     height: 50px;
     padding-left: 20px;
   }
+  .order-type-1{
+    margin-bottom: 5px;
+  }
   .input-section select{
     background-color:#ddd9cd95;
     border: none;
@@ -822,14 +858,26 @@ padding: 3px 12px;
     justify-content: space-between;
     gap: 20px;
   }
+   .order-type .div-1:hover{
+    background: #079839;
+    color: white;
+   }
+    .order-type .div-2:hover{
+    background: #079839;
+    color: white;
+   }
   .order-type .div-1
     {
-    background:#079839;
-    color: white;
+      background: transparent;
+    border: solid 2px #079839;
+     
+    color: #079839;
+      font-weight: 600;
     width: 100%;
     height: 50px;
     text-align: center;
     padding-top: 15px;
+    cursor: pointer;
   }
   .div-2{
     background: transparent;
@@ -840,6 +888,7 @@ padding: 3px 12px;
     padding-top: 15px;
     color: #079839;
     font-weight: 600;
+    cursor: pointer;
   }
   .button-1{
     background-color: #ed2629;
@@ -849,6 +898,7 @@ padding: 3px 12px;
     color: white;
     margin-top: 16px;
     border: none;
+    cursor: pointer;
   }
   .confir-hero{
     margin-top: 110px;
@@ -911,6 +961,9 @@ padding: 3px 12px;
    padding-bottom: 18px;
 
 }
+.option-select p{
+  text-align: center;
+}
 .option-select{
         background-image: url(./Assets/vector2.png);
       background-position: center;
@@ -941,6 +994,7 @@ padding: 3px 12px;
    width: 80px;
    color: white;
    border: none;
+   cursor: pointer;
    height: 30px;
 }
 .card-text-2 h5{
@@ -948,6 +1002,7 @@ padding: 3px 12px;
   font-size: 17px;
 }
 .btn-1{
+
   background:#079839;
   width: 200px;
   height: 50px;
@@ -960,6 +1015,9 @@ padding: 3px 12px;
 .btn-box{
   display: flex;
   justify-content: center;
+}
+.btn-box button{
+  cursor: pointer;
 }
 /* popup special start from here */
 .popup-container{
@@ -1009,7 +1067,7 @@ padding: 3px 12px;
  }
  .cont-4 button{
   background:#ed2629;
- 
+ cursor: pointer;
   height: 40px;
   color: white;
   border: none;
@@ -1024,7 +1082,7 @@ padding: 3px 12px;
  }
  .btn-3 button {
   background :#079839;
-
+cursor: pointer;
   width: 60%;
   height: 50px;
   margin: auto;
