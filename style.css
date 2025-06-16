@@ -578,10 +578,10 @@ margin-top: 60px;
     .appetizeer{
       background-image:url(./Assets/vector4.png);
       height: 100%;
-      padding: 85px;
-      
+      padding: 50px;
+      background-repeat: repeat-x;
       background-position: center;
-      background-size: cover;
+      background-size: contain;
     }
     .in-card h5{
           color: #ed2629;
@@ -625,12 +625,13 @@ margin-top: 60px;
     .my-order{
         background-image:url(./Assets/vector1.png);
       height: 100%;
-      padding: 85px;
+      padding: 50px;
        
       display: flex;
       justify-content: space-between;
       background-position: center;
-      background-size: cover;
+      background-repeat: repeat-x;
+      background-size: contain;
       color: white;
     }
     .cart{
@@ -814,8 +815,10 @@ padding: 3px 12px;
     .checkout{
       background-image: url(./Assets/vector1.png);
       background-position: center;
-      background-size: cover;
-      padding:    80px;
+      background-size: contain;
+      
+      background-repeat: repeat-x;
+      padding:    50px;
       color: white;
     }
     .checkout-section{
@@ -967,7 +970,8 @@ padding: 3px 12px;
 .option-select{
         background-image: url(./Assets/vector2.png);
       background-position: center;
-      background-size: cover;
+      background-size: contain;
+      background-repeat: repeat-x;
       padding:    20px 30px 30px 20px;
       color: white;
 }
