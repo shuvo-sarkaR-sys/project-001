@@ -225,11 +225,13 @@ align-items: center;
    color: #000000;
    font-weight: 500;
    font-size: 20px;
-   padding-bottom: 4px;
+   padding: 10px 20px ;
+   border-radius: 5px;
  }
  .menu-desktop ul a:hover{
-  color: #0ddf56;
-  border-bottom: 1px solid #0ddf56;
+  background-color: #0ddf56;
+  color: white;
+  
  
 
  }
@@ -240,10 +242,10 @@ align-items: center;
   justify-content: space-between;
   }
   .container-4 .product-section{
-    width: 55%;
+    width: 52%;
   }
   .container-4 .order-section{
-    width: 32%;
+    width: 31%;
   }
  .navbar h1{
   color: #079839;
@@ -376,14 +378,27 @@ color: #646363;
 .menu a{
   text-decoration: none;
   color: black;
+  padding: 10px 20px;
+width: 150px;
+margin: auto;
+text-align: center;
+border-radius: 5px;
 }
+.menu a:hover{
+  background-color: #079839;
+  color: white;
+}
+
 .menu a button{
   font-size: 1rem;
   color: white;
   border-radius: 5px;
-  width: 200px;
+  width: 150px;
+ padding: 10px 20px;
   background-color: #079839;
-  height: 50px;
+  border: none;
+ 
+  margin-left: -20px;
   cursor: pointer;
 }
 /* Show menu when checkbox is checked */
@@ -552,7 +567,7 @@ margin-top: 60px;
      
     }
     .my-order{
-      padding: 20px !important;
+      padding: 22px !important;
       background-size: cover !important;
        
     }
@@ -663,7 +678,18 @@ margin-top: 60px;
 .logo-1{
   width: 100px;
 }
-
+ .order-type{
+  width: 100% !important;
+ }
+ .error-box p{
+  padding: 5px 15px  !important;
+  font-size: 14px !important;
+  margin-left: -20px !important;
+ }
+ .error-box img{
+  width: 80px !important;
+  height: 80px !important;
+ }
     }
     
     .logo-1{
@@ -675,6 +701,7 @@ margin-top: 60px;
         gap: 14px;
         margin-top: 14px;
         margin: 14px 50px 50px 50px;
+        
          
     }
     .card-1 img{
@@ -685,6 +712,7 @@ margin-top: 60px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
     }
     .appetizeer{
       background-image:url(./Assets/vector4.png);
@@ -761,6 +789,7 @@ margin-top: 60px;
     .div-1{
       border-bottom: 1px solid rgba(59, 56, 56, 0.395);
       padding-bottom: 6px;
+    width: 100%;
     }
     .cart-1 img{
         width: 70px;
@@ -919,9 +948,10 @@ margin-top: 60px;
     }
     .error-box p{
       font-size: 15px;
-padding: 3px 12px;
-      background: #d29508;
-      margin-left: -10px;
+padding: 3px 40px;
+      background: #e0a929;
+      margin-left: -20px;
+      text-align: center;
       border:  1px red solid;
     }
     .checkout{
@@ -971,6 +1001,8 @@ padding: 3px 12px;
   .order-type{
     display: flex;
     justify-content: space-between;
+    width: 50%;
+    margin: auto;
     gap: 20px;
   }
    .order-type .div-1:hover{
@@ -988,7 +1020,7 @@ padding: 3px 12px;
      
     color: #079839;
       font-weight: 600;
-    width: 100%;
+    width: 50%;
     height: 50px;
     text-align: center;
     padding-top: 15px;
@@ -997,7 +1029,7 @@ padding: 3px 12px;
   .div-2{
     background: transparent;
     border: solid 2px #079839;
-    width: 100%;
+    width: 50%;
     height: 50px;
     text-align: center;
     padding-top: 15px;
