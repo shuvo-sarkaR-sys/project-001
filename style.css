@@ -38,7 +38,7 @@ body{
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px rgb(82, 79, 79);
   padding: 28px 14px 28px 14px !important;
-  position: fixed; 
+  
   top: 0px;
   z-index: 2;
   width: 100%;
@@ -132,7 +132,7 @@ width: 100%;
 }
 .hero-section{
   background-color: #efe9db;
-  margin-top: 130px !important;
+   
   padding: 14px 14px !important;
 } 
 .order-text{
@@ -164,6 +164,24 @@ width: 100%;
   padding: 20px 14px !important;
   position: sticky;
 }
+.hamburger{
+  display:block !important;
+}
+.menu-desktop{
+  display: none;
+}
+.desk-btn{
+  display: none !important;
+}
+.container-4 .product-section{
+    width: 100% !important;
+  }
+  .container-4 .order-section{
+    width: 100% !important;
+  }
+   .container-4{
+    padding: 0px !important;
+   }
 }
  
   .navbar{
@@ -171,14 +189,62 @@ width: 100%;
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px rgb(82, 79, 79);
   padding: 28px 42px 28px 68px;
-  position: fixed; 
-  top: 0px;
-  z-index: 2;
+  
+   
+align-items: center;
   width: 100%;
   background-color: #fff;
  
 
  }
+ .desk-btn{
+  display: block;
+ 
+ }
+.desk-btn button {
+  background-color:#079839;
+   font-size: 20px;
+   padding: 10px 20px;
+   margin-right: 20px;
+   border-radius: 5px;
+  border:none;
+  cursor: pointer;
+   color: white;
+}
+.desk-btn button:hover{
+  background-color:#0ddf56;
+}
+ .menu-desktop ul {
+ display: flex;
+ list-style: none;
+ gap: 25px;
+ 
+ }
+ .menu-desktop ul a {
+  text-decoration: none;
+   color: #000000;
+   font-weight: 500;
+   font-size: 20px;
+   padding-bottom: 4px;
+ }
+ .menu-desktop ul a:hover{
+  color: #0ddf56;
+  border-bottom: 1px solid #0ddf56;
+ 
+
+ }
+  .container-4{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  justify-content: space-between;
+  }
+  .container-4 .product-section{
+    width: 55%;
+  }
+  .container-4 .order-section{
+    width: 32%;
+  }
  .navbar h1{
   color: #079839;
   font-size: 20px;
@@ -192,10 +258,10 @@ width: 100%;
  .span2{
      font-size: 24px;
  }
- .navbar button{
+ /* .navbar button{
   border: none;
   background: none;
- }
+ } */
  .navbar label img{
   width: 43px;
  }
@@ -282,6 +348,7 @@ color: #646363;
   cursor: pointer;
   display: inline-block;
   z-index: 10;
+  display:none;
 }
 
 /* Menu styles */
@@ -290,6 +357,7 @@ color: #646363;
   top: 105px;
   left: 0;
   right: 0;
+  z-index: 3;
   display: flex;
   flex-direction: column ;
   gap: 15px;
@@ -324,7 +392,7 @@ color: #646363;
 /* hero section start from here */
 .hero-section{
   background-color: #efe9db;
-  margin-top: 110px;
+  
   padding: 60px 70px;
 } 
 .hero-section .text-4{
@@ -362,6 +430,8 @@ margin-top: 60px;
   justify-content: space-between;
   padding: 20px 70px;
   position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 .box-1 p{
   color: white;
@@ -426,12 +496,32 @@ margin-top: 60px;
     }
     .product-section{
       background: #f5f5f5;
-      margin: 50px;
+      margin: 40px;
        
+    }
+    .product-list{
+      margin-top: 40px;
     }
     .text-2{
       color: #079839;
       font-weight: 600;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .container-4 .order-section{
+        width: 100%;
+      }
+      .container-4 .product-section{
+        width: 100%;
+      }
+      .menu-desktop{
+        display: none;
+      }
+      .desk-btn{
+        display: none;
+      }
+      .hamburger{
+  display:block;
+}
     }
     @media (max-width: 768px) {
       .product-section{
@@ -458,12 +548,12 @@ margin-top: 60px;
      
     }
     .my-order{
-      padding: 24px !important;
-      margin: 28px 0px  !important;
+      padding: 20px !important;
+       
     }
      .in-card h5{
           
-          font-size: 18px !important;
+          font-size: 20px !important;
     }
      .in-card div p{
         font-size: 16px !important;
@@ -473,7 +563,7 @@ margin-top: 60px;
         font-size: 14px !important;
       }
        .text-5{
-        font-size: 11px !important;
+        font-size: 14px !important;
        }
         .order-section{
           margin: 14px !important;
@@ -578,11 +668,12 @@ margin-top: 60px;
     }
     .appetizeer{
       background-image:url(./Assets/vector4.png);
-      height: 100%;
-      padding: 50px;
+       
+      padding: 40px;
       background-repeat: repeat-x;
       background-position: center;
       background-size: contain;
+     
     }
     .in-card h5{
           color: #ed2629;
@@ -605,28 +696,28 @@ margin-top: 60px;
       cursor: pointer;
     }
     .text-5{
-      font-size: 13px;
+      font-size: 16px;
       margin-top: 10px;
     }
     .text-6{
       color: #079839;
-      font-size: 11px;
+      font-size: 16px;
       margin-top: 6px;
     }
     .text-7{
-      font-size: 11px;
+      font-size: 15px;
       color:#ed2629;
     }
     .order-section{
        background: #fff;
        margin: 50px;
        padding-bottom: 10px;
-
+      height:fit-content;
     }
     .my-order{
         background-image:url(./Assets/vector1.png);
-      height: 100%;
-      padding: 50px;
+      
+      padding: 20px;
        
       display: flex;
       justify-content: space-between;
@@ -700,7 +791,7 @@ margin-top: 60px;
     .box-3{
       display: flex;
        justify-content: space-between;
-       width: 350px;
+       width: 100%;
 
     } 
     .box-3 p{
@@ -796,7 +887,7 @@ margin-top: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 80%;
+      width: 95%;
       margin: auto;
       margin-top: 10px;
 
@@ -807,7 +898,7 @@ margin-top: 60px;
       z-index: 2;
     }
     .error-box p{
-      font-size: 8px;
+      font-size: 15px;
 padding: 3px 12px;
       background: #d29508;
       margin-left: -10px;
