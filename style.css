@@ -1068,7 +1068,7 @@ padding: 3px 12px;
       color: white;
 }
 .container-1{
-  background: #00000023;
+   
   height: 100%;
 }
 .option-select h1{
@@ -1207,3 +1207,4 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
+ 
