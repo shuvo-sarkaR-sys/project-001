@@ -647,6 +647,9 @@ margin-top: 60px;
 .popup-container{
   width: 80% !important;
 } 
+.button-1{
+  width: 100% !important;
+}
 
     }
     .card-1{
@@ -893,8 +896,8 @@ margin-top: 60px;
 
     }
     .error-box img{
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       z-index: 2;
     }
     .error-box p{
@@ -985,10 +988,15 @@ padding: 3px 12px;
     font-weight: 600;
     cursor: pointer;
   }
+  .div-3{
+    display: flex;
+    justify-content: center;
+  }
   .button-1{
     background-color: #ed2629;
     font-weight: 600;
-    width: 100%;
+    width: 240px;
+    margin: auto;
     height: 50px;
     color: white;
     margin-top: 16px;
