@@ -70,7 +70,7 @@ body{
   background-color: #efe9db;
   padding: 32px 14px 55px 14px !important;
 z-index: 3;
-margin-top: 110px;
+margin-top: 0px !important;
  }
  .reservation div {
   background-color: #079839;
@@ -269,7 +269,7 @@ align-items: center;
   background-color: #efe9db;
   padding: 86px 14px 86px 68px;
 z-index: 3;
-margin-top: 110px;
+margin-top: 0px;
  }
  .reservation div {
   background-color: #079839;
@@ -1152,7 +1152,7 @@ padding: 3px 12px;
    padding: 0px 10px;
 }
  .container-3{
-  background:#efe9db96;
+  background:#fff;
   padding-bottom: 20px;
 
  }
@@ -1185,3 +1185,25 @@ cursor: pointer;
   border: none;
   color: white;
  }
+ select {
+  appearance: none; /* for most browsers */
+  -webkit-appearance: none; /* Safari/Chrome */
+  -moz-appearance: none; /* Firefox */
+  background: url('/Assets/arrow-down-sign-to-navigate.png') no-repeat  right 1.5rem center;
+  background-size: 1em;
+  padding: 0.5rem 3rem 0.5rem 1rem; 
+}
+
+#date-select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+   background-size: 1rem;
+
+  padding: 0.5rem 1.5rem 0.5rem 1rem; 
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

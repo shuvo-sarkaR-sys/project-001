@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book-table</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- navbar start from here -->
     <nav class="navbar">
-    <h1><span class="span1">I</span>NDIAN<br><span class="span2">R</span>AILWAY</h1>
-    <input type="checkbox" id="menu-toggle" hidden>
-<label for="menu-toggle" class="hamburger"><img src="Assets/menu.png" alt=""></label>
- 
-<nav class="menu">
-  <a href="/">Home</a>
-  <a href="#">About</a>
-  <a href="#">Offer</a>
-  <a href="#">Gallery</a>
-  <a href="#">Contact</a>
-  <a href="book-table.html">Book table</a>
-  <a href="/"><button>Order online</button></a>
-</nav>
-   </nav>
-   <!-- reservation section -->
+        <h1><span class="span1">I</span>NDIAN<br><span class="span2">R</span>AILWAY</h1>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="hamburger"><img src="Assets/menu.png" alt=""></label>
+
+        <nav class="menu">
+            <a href="/">Home</a>
+            <a href="#">About</a>
+            <a href="#">Offer</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+            <a href="book-table.html">Book table</a>
+            <a href="/"><button>Order online</button></a>
+        </nav>
+    </nav>
+    <!-- reservation section -->
     <section class="reservation">
         <div></div>
         <h1><span class="span3">R</span>ESERVATION</h1>
         <p>We'd love to hear from you</p>
     </section>
-     <!-- Form section start from here -->
+    <!-- Form section start from here -->
     <div class="form-section-1">
-        <p class="text-1">Lorem ipsum dolor sit amet, con-sete tur adipiscing elit, sed do ei-usmode temper incididunt.</p>
-       
+        <p class="text-1">Lorem ipsum dolor sit amet, con-sete tur adipiscing elit, sed do ei-usmode temper incididunt.
+        </p>
+
         <form class="form-section" action="submit">
             <input type="email" placeholder="Your Email">
             <input type="text" placeholder="Your Name">
             <input type="number" placeholder="Contact Number">
             <input type="text" placeholder="Guests">
-             <label for="date">Select date:</label>
-            <input type="date" placeholder="Select Date">
-            <label for="time">Select Time:</label>
-            <input type="time" placeholder="Select Time">
+            
+            <!-- <input type="date" id="date-select" placeholder="Select Date"> -->
+            <input type="text" placeholder="Select Date" onfocus="this.type='date'"
+                onblur="if(!this.value) this.type='text'" />
+
+            <!-- <input type="time" id="time-select" placeholder="Select Time"> -->
+            <input type="text" placeholder="Select time" onfocus="this.type='time'"
+                onblur="if(!this.value) this.type='text'" />
+
             <input class="text-input" type="text" name="" id="">
             <button type="submit">Book Now</button>
         </form>
     </div>
 </body>
+
 </html>
