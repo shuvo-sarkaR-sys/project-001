@@ -630,7 +630,7 @@ margin-top: 60px;
       font-size: 15px !important;
     }
     .card-text-2{
-      margin: 15px !important;
+      margin: 15px 20px !important;
     }
     .card-text-2 h5{
       font-size: 15px !important;
@@ -639,8 +639,9 @@ margin-top: 60px;
       width: 70px !important;
     }
     .option-select {
-      padding: 6px 17px 20px 17px !important;
-    }
+      padding: 20px 20px 30px 20px !important;
+      background-size: cover !important;
+     }
  .btn-1{
   font-size: 15px !important;
  }
@@ -650,7 +651,13 @@ margin-top: 60px;
 .button-1{
   width: 100% !important;
 }
+.logo-1{
+  width: 100px;
+}
 
+    }
+    .logo-1{
+      width: 100px;
     }
     .card-1{
         display: flex;
