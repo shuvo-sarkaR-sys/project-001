@@ -662,7 +662,7 @@ margin-top: 60px;
        
     }
     .option-select {
-      padding: 20px 20px 30px 30px !important;
+      padding: 20px 30px 30px 30px !important;
       margin-bottom: 10px !important;
       background-size: cover !important;
      }
@@ -1129,7 +1129,8 @@ padding: 3px 40px;
       color: white;
 }
 .container-1{
-   
+   background-color: rgba(0, 0, 0, 0.232); /* black with 50% transparency */
+
   height: 100%;
 }
 .option-select h1{
@@ -1293,4 +1294,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 .payment-m{
   margin-top: 15px;
+}
+.special-popup{
+ background-color: rgba(0, 0, 0, 0.2); /* black with 50% transparency */
+
 }
