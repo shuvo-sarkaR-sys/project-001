@@ -126,7 +126,7 @@ width: 100%;
   background-color: green;
   height: 50px;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 17px !important;
   border: none;
   color: white;
 }
@@ -296,6 +296,8 @@ margin-top: 0px;
   color: #079839;
    font-size: 22px;
    min-width: 650px;
+   text-align: center;
+   font-weight: 600;
  }
  .form-section-1{
   display: flex;
@@ -338,6 +340,7 @@ color: #646363;
   margin-top: 10px;
   border: none;
   color: white;
+  font-weight: 300 !important;
   cursor: pointer;
 }
 
@@ -464,6 +467,7 @@ margin-top: 60px;
     }
     summary img{
       width: 15px;
+      margin-left: 5px;
     }
 
     details[open] summary {
@@ -542,35 +546,37 @@ margin-top: 60px;
       height: 130px !important;
     }
     .appetizeer{
-       
+       background-size: cover !important;
       padding: 24px !important;
       
      
     }
     .my-order{
       padding: 20px !important;
+      background-size: cover !important;
        
     }
      .in-card h5{
           
           font-size: 20px !important;
+          margin-bottom: 5px;
     }
      .in-card div p{
         font-size: 16px !important;
     }
       .in-card div button{
-        width: 70px !important;
+        width: 80px !important;
         font-size: 14px !important;
       }
        .text-5{
-        font-size: 14px !important;
+        font-size: 16px !important;
        }
         .order-section{
           margin: 14px !important;
         }
         .cart{
           padding: 14px !important;
-          margin-top: 15px !important;
+          margin-top: 0px !important;
         }
         .box-3{
           width: 100% !important;
@@ -590,6 +596,7 @@ margin-top: 60px;
       }
       .checkout{
         padding: 24px !important;
+        background-size: cover !important;
       }
       .input-section{
         padding: 14px !important;
@@ -602,7 +609,7 @@ margin-top: 60px;
   }
   .box-6 h5{
      
-    font-size: 17px !important;
+    font-size: 20px !important;
   }
   .box-6{
     padding: 40px !important;
@@ -627,19 +634,21 @@ margin-top: 60px;
     }
 
     .option-select h1{
-      font-size: 15px !important;
+      font-size: 16px !important;
     }
     .card-text-2{
-      margin: 15px 20px !important;
+      margin: 15px 30px !important;
     }
     .card-text-2 h5{
-      font-size: 15px !important;
+      font-size: 16px !important;
     }
     .card-text-2 div button {
-      width: 70px !important;
+      width: 80px !important;
+       
     }
     .option-select {
-      padding: 20px 20px 30px 20px !important;
+      padding: 20px 20px 30px 30px !important;
+      margin-bottom: 10px !important;
       background-size: cover !important;
      }
  .btn-1{
@@ -656,6 +665,7 @@ margin-top: 60px;
 }
 
     }
+    
     .logo-1{
       width: 100px;
     }
@@ -711,7 +721,7 @@ margin-top: 60px;
     }
     .text-6{
       color: #079839;
-      font-size: 16px;
+      font-size: 15px;
       margin-top: 6px;
     }
     .text-7{
@@ -943,7 +953,7 @@ padding: 3px 12px;
     padding-left: 20px;
   }
   .order-type-1{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
   .input-section select{
     background-color:#ddd9cd95;
@@ -1011,7 +1021,7 @@ padding: 3px 12px;
     cursor: pointer;
   }
   .confir-hero{
-    margin-top: 110px;
+     
     padding: 80px;
     background:#efe9db;
   }
@@ -1053,7 +1063,7 @@ padding: 3px 12px;
     
   }
   .box-6 h5{
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 500;
         margin-bottom: 12px;
   }
@@ -1088,7 +1098,7 @@ padding: 3px 12px;
 }
 .option-select h1{
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .card-text-2{
  margin: 20px 40px;
@@ -1112,6 +1122,9 @@ padding: 3px 12px;
   color: #ed2629;
   font-size: 17px;
 }
+.card-text-2 p{
+  font-weight: 500;
+}
 .btn-1{
 
   background:#079839;
@@ -1121,6 +1134,7 @@ padding: 3px 12px;
   color: white;
   font-weight: 500;
   font-size: 20px;
+  margin-top: 20px;
     
 }
 .btn-box{
@@ -1139,20 +1153,21 @@ padding: 3px 12px;
 }
 .hearder-section-1{
   background-color: #80ace548;
+  margin-bottom: 15px;
 }
 .header-text{
   display: flex;
   justify-content: space-between;
   color: #079839;
   font-weight: 500;
-  padding: 15px;
+  padding: 15px 30px;
 }
 
 .header{
   background-image: url(./Assets/vector2.png);
 }
 .card-3{
-  padding: 5px 20px 5px 20px;
+  padding: 8px 30px 5px 30px;
   
 }
 .card-3 p{
@@ -1174,7 +1189,7 @@ padding: 3px 12px;
  .cont-4{
     display: flex;
   justify-content: center;
-  margin: 20px 0px;
+  margin: 45px 0px 15px 0px !important;
  }
  .cont-4 button{
   background:#ed2629;
@@ -1218,8 +1233,28 @@ cursor: pointer;
 
   padding: 0.5rem 1.5rem 0.5rem 1rem; 
 }
+#time-select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+   background-size: 1rem;
+
+  padding: 0.5rem 1.5rem 0.5rem 1rem; 
+}
 input[type="time"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
  
+.details-1{
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+.note{
+  height: 100px !important;
+}
+.payment-m{
+  margin-top: 15px;
+}
