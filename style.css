@@ -639,7 +639,7 @@ margin-top: 60px;
       width: 70px !important;
     }
     .option-select {
-      padding: 17px 17px 20px 17px !important;
+      padding: 10px 17px 20px 17px !important;
     }
  .btn-1{
   font-size: 15px !important;
@@ -1175,7 +1175,7 @@ padding: 3px 12px;
   height: 40px;
   color: white;
   border: none;
-  width: 60%;
+   width: 240px;
    
  }
  .btn-3{
@@ -1187,7 +1187,7 @@ padding: 3px 12px;
  .btn-3 button {
   background :#079839;
 cursor: pointer;
-  width: 60%;
+ width: 240px;
   height: 50px;
   margin: auto;
   border: none;
