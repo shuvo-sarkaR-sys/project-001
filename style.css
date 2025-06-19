@@ -8,12 +8,16 @@ body{
    font-family: "Montserrat", sans-serif;
     
 }
-
+ /* mobile navbar */
   .input-wrapper {
     position: relative;
     display: inline-block;
   }
-
+  /* navbar logo  */
+ .logo-1{
+      width: 100px;
+       
+    }
   .input-wrapper span {
     position: absolute;
     left: 10px;
@@ -66,6 +70,7 @@ body{
  .navbar button img{
   width: 43px;
  }
+ /* book table start from here */
  .reservation{
   background-color: #efe9db;
   padding: 32px 14px 55px 14px !important;
@@ -133,6 +138,7 @@ width: 100%;
   border: none;
   color: white;
 }
+/* Order now mobile version page start from here */
 .hero-section{
   background-color: #efe9db;
    
@@ -160,6 +166,7 @@ width: 100%;
   font-size: 18px !important;
   margin-bottom: 20px;
 }
+/* food menu start from here */
 .food-menu{
    
   
@@ -170,6 +177,7 @@ width: 100%;
 .hamburger{
   display:block !important;
 }
+/* Desktop navbar menu */
 .menu-desktop{
   display: none;
 }
@@ -186,7 +194,7 @@ width: 100%;
     padding: 0px !important;
    }
 }
- 
+ /* navbar start from here */
   .navbar{
   display: flex;
   justify-content: space-between;
@@ -238,6 +246,7 @@ align-items: center;
  
 
  }
+ /* product and order page  */
   .container-4{
     display: flex;
     flex-wrap: wrap;
@@ -250,26 +259,13 @@ align-items: center;
   .container-4 .order-section{
     width: 31%;
   }
- .navbar h1{
-  color: #079839;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 450;
- }
- .span1{
-  margin-left: 8px;
-  font-size: 24px;
- }
- .span2{
-     font-size: 24px;
- }
- /* .navbar button{
-  border: none;
-  background: none;
- } */
+ 
+  
  .navbar label img{
   width: 43px;
  }
+/* Book table page start from here */
+
  .reservation{
   background-color: #efe9db;
   padding: 86px 14px 86px 68px;
@@ -323,10 +319,7 @@ margin-top: 0px;
  .text-input{
   height: 150px !important;
  }
- .form-section label{
-  color: #888282;
-  font-size: 14px;
- }
+ 
 .form-section input{
   height: 55px;
    border: none;
@@ -351,7 +344,7 @@ color: #646363;
 }
 
 
-/* Hamburger button */
+/* mobile Hamburger button */
 .hamburger {
   font-size: 2rem;
   cursor: pointer;
@@ -360,7 +353,7 @@ color: #646363;
   display:none;
 }
 
-/* Menu styles */
+/* Mobile menu styles */
 .menu {
   position: absolute;
   top: 105px;
@@ -446,6 +439,7 @@ margin-top: 60px;
   font-size: 50px;
 
 }
+/* food menu start from here */
 .food-menu{
   background-color: #ed2629;
   display: flex;
@@ -517,6 +511,7 @@ margin-top: 60px;
     .home-page{
       background-color: #efe9db;
     }
+    /* product section start from here */
     .product-section{
       background: #f5f5f5;
       margin: 40px;
@@ -529,6 +524,7 @@ margin-top: 60px;
       color: #079839;
       font-weight: 600;
     }
+    /* responsive for tablet and ipad */
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
       .container-4 .order-section{
         width: 100%;
@@ -546,7 +542,9 @@ margin-top: 60px;
   display:block;
 }
     }
+    /* responsive for mobile */
     @media (max-width: 768px) {
+      /* product section start from here */
       .product-section{
         
         margin: 14px !important;
@@ -570,6 +568,7 @@ margin-top: 60px;
       
      
     }
+    /* order section start from here */
     .my-order{
       padding: 22px !important;
       background-size: cover !important;
@@ -603,6 +602,7 @@ margin-top: 60px;
         .details{
           margin: 30px 50px !important;
         }
+        /* collection section start from here */
         .collection-section{
           margin: 14px !important;
           padding: 28px 14px !important;
@@ -613,6 +613,7 @@ margin-top: 60px;
       .container{
         margin:28px 14px !important;
       }
+      /* checkout section start from here */
       .checkout{
         padding: 24px !important;
         background-size: cover !important;
@@ -640,6 +641,7 @@ margin-top: 60px;
     padding: 40px !important;
     margin: 15px !important;
   }
+  /* confirmation mobile version page start from here */
    .confir-hero{
      
     padding: 30px 15px 60px 15px !important;
@@ -651,7 +653,7 @@ margin-top: 60px;
    .confir-hero p{
     font-size: 27px !important;
    }
-   
+   /* popup-select-option page mobile version start from here */
 
    .pop-up{
    width: 80% !important;
@@ -685,12 +687,14 @@ margin-top: 60px;
 .button-1{
   width: 100% !important;
 }
+/* mobile navbar logo design */
 .logo-1{
   
   
     width: 70px !important;
     height: 70px !important;
 }
+/*  order type in online order page*/
  .order-type{
   width: 100% !important;
  }
@@ -716,10 +720,7 @@ margin-top: 60px;
  }
     }
     
-    .logo-1{
-      width: 100px;
-       
-    }
+   /* product-list start from here */
     .card-1{
         display: flex;
         justify-content: center;
@@ -739,6 +740,7 @@ margin-top: 60px;
       align-items: center;
       
     }
+  
     .appetizeer{
       background-image:url(./Assets/vector4.png);
        
@@ -787,6 +789,7 @@ margin-top: 60px;
        padding-bottom: 10px;
       height:fit-content;
     }
+    /* my order section start from here */
     .my-order{
         background-image:url(./Assets/vector1.png);
       
@@ -887,6 +890,7 @@ margin-top: 60px;
       padding: 18px;
       color: white;
     }
+    /* collection section start from here */
     .collection-section{
       background:#079839;
       margin: 50px;
@@ -916,6 +920,7 @@ margin-top: 60px;
       padding-top: 10px;
       padding-bottom: 10px;
     }
+    /* payment section start from here */
      .payment-section {
       width: 100%;
       display: flex;
@@ -960,6 +965,7 @@ margin-top: 60px;
         width: 20px;
         height: 20px;
     }
+    
     .error-box{
       display: flex;
       align-items: center;
@@ -982,6 +988,7 @@ padding: 3px 40px;
       text-align: center;
       border:  1px red solid;
     }
+    /* checkout section start from here */
     .checkout{
       background-image: url(./Assets/vector1.png);
       background-position: center;
@@ -1032,14 +1039,17 @@ padding: 3px 40px;
      
     gap: 20px;
   }
+  /* Deliver button hover */
    .order-type .div-1:hover{
     background: #079839;
     color: white;
    }
+   /* Collection button hover */
     .order-type .div-2:hover{
     background: #079839;
     color: white;
    }
+   /* deliver button */
   .order-type .div-1
     {
        background: #079839;
@@ -1053,6 +1063,7 @@ padding: 3px 40px;
     padding-top: 15px;
     cursor: pointer;
   }
+  /* collection button */
   .div-2{
     background: transparent;
     border: solid 2px #079839;
@@ -1068,6 +1079,7 @@ padding: 3px 40px;
     display: flex;
     justify-content: center;
   }
+  /* submit button */
   .button-1{
     background-color: #ed2629;
     font-weight: 600;
@@ -1079,6 +1091,7 @@ padding: 3px 40px;
     border: none;
     cursor: pointer;
   }
+  /* confirmation page start from here */
   .confir-hero{
      
     padding: 80px;
@@ -1130,7 +1143,7 @@ padding: 3px 40px;
     margin-bottom: 24px;
     font-size: 15px;
   }
-   
+   /* pop-up select option start from here */
 .pop-up{
    width: 600px;
    
@@ -1151,6 +1164,7 @@ padding: 3px 40px;
       padding:    14px 30px 30px 40px;
       color: white;
 }
+
 .container-1{
    background-color: rgba(0, 0, 0, 0.232); /* black with 50% transparency */
 
@@ -1205,6 +1219,10 @@ padding: 3px 40px;
   cursor: pointer;
 }
 /* popup special start from here */
+.special-popup{
+ background-color: rgba(0, 0, 0, 0.2); /* black with 50% transparency */
+
+}
 .popup-container{
   width: 50%;
   margin: auto;
@@ -1275,10 +1293,11 @@ cursor: pointer;
   border: none;
   color: white;
  }
+/* some css for book table page   */
  select {
-  appearance: none; /* for most browsers */
-  -webkit-appearance: none; /* Safari/Chrome */
-  -moz-appearance: none; /* Firefox */
+  appearance: none; 
+  -webkit-appearance: none;  
+  -moz-appearance: none; 
   background: url('/Assets/arrow-down-sign-to-navigate.png') no-repeat  right 1.5rem center;
   background-size: 1em;
   padding: 0.5rem 3rem 0.5rem 1rem; 
@@ -1321,7 +1340,5 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   margin-top: 15px;
   font-weight: 600;
 }
-.special-popup{
- background-color: rgba(0, 0, 0, 0.2); /* black with 50% transparency */
-
-}
+ 
+ 
