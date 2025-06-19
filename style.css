@@ -1140,7 +1140,7 @@ padding: 3px 40px;
    padding-bottom: 18px;
 
 }
-.option-select p{
+.option-select h4{
   text-align: center;
 }
 .option-select{
@@ -1157,7 +1157,7 @@ padding: 3px 40px;
   height: 100%;
 }
 .option-select h1{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 .card-text-2{
