@@ -110,6 +110,9 @@ margin-top: 0px !important;
   gap: 14px;
   min-width: 95% !important;
  }
+ .form-section button{
+  width: 100% !important;
+ }
  .text-input{
   height: 150px !important;
  }
@@ -338,8 +341,9 @@ color: #646363;
 .form-section button{
   background-color: green;
   height: 50px;
+  width: 240px ;
   font-size: 15px;
-  margin-top: 10px;
+  margin: 10px auto;
   border: none;
   color: white;
   font-weight: 300 !important;
@@ -615,6 +619,12 @@ margin-top: 60px;
       }
       .input-section{
         padding: 14px !important;
+      }
+      .payment-section .img-4{
+        width: 100% !important;
+      }
+      .payment-section .img-3{
+        width: 100% !important;
       }
       .box-5{
      
@@ -909,6 +919,7 @@ margin-top: 60px;
      .payment-section {
       width: 100%;
       display: flex;
+    justify-content: center;
       gap: 10px;
      }
     .payment-section span{
@@ -917,11 +928,12 @@ margin-top: 60px;
     }
     .img-3{
       justify-content: space-between;
-        width:50%;
+          width: 240px;
         color: #079839;
         padding: 8px 18px;
         background-color:#ddd9cd95 ;
         cursor: pointer;
+        
          
     }
   
@@ -934,7 +946,8 @@ margin-top: 60px;
     }
     .img-4 {
       justify-content: space-between;
-        width:50%;
+         width: 240px;
+         
         background-color: #079839;
         cursor: pointer;
         height: 40px;
@@ -1015,9 +1028,8 @@ padding: 3px 40px;
   }
   .order-type{
     display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
+    justify-content: center;
+     
     gap: 20px;
   }
    .order-type .div-1:hover{
@@ -1030,12 +1042,12 @@ padding: 3px 40px;
    }
   .order-type .div-1
     {
-      background: transparent;
+       background: #079839;
     border: solid 2px #079839;
      
-    color: #079839;
+    color: #ffffff;
       font-weight: 600;
-    width: 50%;
+    width: 240px;
     height: 50px;
     text-align: center;
     padding-top: 15px;
@@ -1044,7 +1056,7 @@ padding: 3px 40px;
   .div-2{
     background: transparent;
     border: solid 2px #079839;
-    width: 50%;
+    width: 240px;
     height: 50px;
     text-align: center;
     padding-top: 15px;
@@ -1136,7 +1148,7 @@ padding: 3px 40px;
       background-position: center;
       background-size: contain;
       background-repeat: repeat-x;
-      padding:    20px 30px 30px 20px;
+      padding:    14px 30px 30px 40px;
       color: white;
 }
 .container-1{
