@@ -142,7 +142,7 @@ width: 100%;
 .hero-section{
   background-color: #efe9db;
    
-  padding: 14px 14px !important;
+  padding: 34px 14px 14px 14px!important;
 } 
 .order-text{
    
@@ -505,7 +505,7 @@ margin-top: 60px;
       padding: 10px 16px;
       text-decoration: none;
       color: black;
-      text-align: start;
+      text-align: right;
     }
 
     details ul li a:hover {
@@ -568,6 +568,7 @@ margin-top: 60px;
     .appetizeer{
        background-size: cover !important;
       padding: 24px !important;
+       
       
      
     }
@@ -738,6 +739,9 @@ margin-top: 60px;
       width: 130px;
       height: 130px;
     }
+    .card-1 div {
+      display: 100%;
+    }
     .card-1 div div{
       display: flex;
       justify-content: space-between;
@@ -774,6 +778,10 @@ margin-top: 60px;
       border: none;
       cursor: pointer;
     }
+     .in-card div button:hover {
+      background-color: #0ddf56;
+      font-weight: 500;
+     }
     .text-5{
       font-size: 16px;
       margin-top: 10px;
@@ -818,9 +826,10 @@ margin-top: 60px;
       margin: 22px 0px 0px 0px;
       
     }
+    
     .div-1{
       border-bottom: 1px solid rgba(59, 56, 56, 0.395);
-      padding-bottom: 6px;
+      padding-bottom: 22px;
     width: 100%;
     }
     .cart-1 img{
@@ -831,6 +840,9 @@ margin-top: 60px;
       color: #ed2629;
 
 
+    }
+    .cart div {
+      width: 100% !important;
     }
     
     .box-2{
@@ -872,7 +884,7 @@ margin-top: 60px;
     .box-3{
       display: flex;
        justify-content: space-between;
-       width: 100%;
+     width:100%;
 
     } 
     .box-3 p{
@@ -1017,10 +1029,15 @@ padding: 3px 40px;
     }
   .input-section input{
     background-color:#ddd9cd95;
+    
     border: none;
     height: 50px;
     padding-left: 20px;
   }
+   .input-section input:focus{
+    border: #079839 1px solid;
+    outline: none;
+   }
   .order-type-1{
     margin-bottom: 7px;
   }
@@ -1031,6 +1048,10 @@ padding: 3px 40px;
     padding-left: 20px;
     padding-right: 20px;
     color: #978787;
+  }
+  .input-section select:focus{
+     border: #079839 1px solid;
+    outline: none;
   }
   .container{
      background: #ddd9cd95; 
