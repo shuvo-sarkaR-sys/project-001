@@ -583,6 +583,9 @@ margin-top: 60px;
       background-size: cover !important;
        
     }
+     .cart-1 div h5{
+     font-size: 15px !important;
+     }
      .in-card h5{
           
           font-size: 20px !important;
@@ -597,7 +600,7 @@ margin-top: 60px;
         font-size: 14px !important;
       }
        .text-5{
-        font-size: 15px !important;
+        font-size: 14px !important;
        }
         .order-section{
           margin: 14px !important;
@@ -844,6 +847,7 @@ margin-top: 60px;
     }
     .cart-1 div h5{
       color: #ed2629;
+      font-size: 20px;
 
 
     }
@@ -911,6 +915,9 @@ margin-top: 60px;
       margin: 14px;
       padding: 18px;
       color: white;
+    }
+    .box-4 p {
+      line-height: 25px;
     }
     /* collection section start from here */
     .collection-section{
